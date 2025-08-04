@@ -1,0 +1,21 @@
+{
+  "name": "airtable_i18n",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node sync-to-airtable.js",
+    "sync:to": "node sync-to-airtable.js",
+    "sync:from": "node sync-from-airtable.js",
+    "pull": "node sync-from-airtable.js",
+    "push": "node sync-to-airtable.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "dotenv": "^17.2.1"
+  }
+}
